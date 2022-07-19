@@ -1,0 +1,207 @@
+.body {
+    background-image: url(../image/image10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 1300px;
+    margin: auto;
+}
+
+.heading-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.photo {
+    width: 70px;
+    padding-right: 600px;
+
+}
+
+.heading1 {
+    font-size: 25px;
+    color: brown;
+    font-variant: petite-caps;
+    line-height: 40px;
+
+}
+
+.heading2 {
+    font-size: 22px;
+    color: brown;
+    font-variant: petite-caps;
+    line-height: 40px;
+
+
+}
+
+.link {
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.objective {
+    font-size: 18px;
+    color: brown;
+    font-family: cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.objective-content {
+    font-size: 15px;
+    color: darkslategrey;
+    font-family: cursive;
+    display: flex;
+    width: 700px;
+}
+
+.education {
+    font-size: 18px;
+    color: brown;
+    font-family: cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.skills {
+    font-size: 18px;
+    color: brown;
+    font-family: cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.skill-content {
+    font-size: 15px;
+    color: blue;
+    font-family: cursive;
+}
+
+.projects {
+    font-size: 18px;
+    color: brown;
+    font-family: cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hobbies {
+    font-size: 18px;
+    color: brown;
+    font-family: cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.personalinfo {
+    font-size: 18px;
+    color: brown;
+    font-family: cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.language {
+    font-size: 18px;
+    color: brown;
+    font-family: cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sign {
+    font-size: 15px;
+    color: brown;
+    font-family: cursive;
+    margin-top: 10px;
+  
+}
+
+.hobbies-content {
+    font-size: 15px;
+    color: darkslateblue;
+    font-family: cursive;
+
+}
+
+.title {
+    font-size: 16px;
+    color: black;
+    font-family: cursive;
+}
+
+.description {
+    font-size: 16px;
+    color: black;
+    font-family: cursive;
+
+}
+
+.title-content {
+    color: darkslateblue;
+    font-family: cursive;
+    margin: 70px;
+}
+
+.description-content {
+    color: darkslateblue;
+    font-family: cursive;
+    width: 50px;
+    display: flex;
+    width: 700px;
+}
+
+.personalinfo-content {
+    font-size: 15px;
+    color: darkblue;
+    font-family: cursive;
+}
+
+.language-content {
+    font-size: 15px;
+    color: rebeccapurple;
+    font-family: cursive;
+
+}
+
+.education-head-content {
+
+    font-size: 15px;
+    color: darkred;
+    font-family: cursive;
+
+}
+
+.education-frame-head {
+    border: solid 2px black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    ;
+}
+
+.education-frame {
+    border: solid 2px black;
+    padding: 10px;
+    padding-left: 50px;
+}
+
+.frame-personalinfo {
+    border: solid 2px black;
+    padding: 10px;
+}
+
+.education-background {
+    background-image: url(../image/image8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.personalinfo-background {
+    background-image: url(../image/image9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
