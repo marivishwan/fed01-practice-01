@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+    <table border="1">
+         <tr>
+            <th>Product</th>
+            <th>Unit Qty</th>
+            <th>Qty</th>
+            <th>Action</th>
+            <th>Price</th>
+         </tr>
+
+         <tr>
+            <td>Headphone</td>
+            <td class="unitPrice">1500</td>
+            <td><input type="text" class="qty"></td>
+            <td><button class="trigger">Update Row Data</button></td>
+            <td class="price"></td>
+         </tr>
+
+        <tr>
+            <td>Charger</td>
+            <td class="unitPrice">350</td>
+            <td><input type="text" class="qty"></td>
+            <td><button class="trigger">Update Row Data </button></td>
+            <td class="price"></td>
+         </tr>
+
+         <tr>
+            <td>Mobile</td>
+            <td class="unitPrice">45000</td>
+            <td><input type="text" class="qty"></td>
+            <td><button class="trigger">Update Row Data</button></td>
+            <td class="price"></td>
+         </tr>
+
+         <tr>
+            <td>Laptop</td>
+            <td class="unitPrice">60000</td>
+            <td><input type="text" class="qty"></td>
+            <td><button class="trigger">Update Row Data</button></td>
+            <td class="price"></td>
+         </tr>
+    </table>
+
+
+    <label for="text">
+      <button class="total">Total</button>
+      <input type="text" class="Input-value">
+    </label>
+
+   </body>
+
+<script>
+
+function calculatePrice(){
+
+    var      rowElements = this.parentNode.parentNode,
+             unitPriceElement = rowElements.getElementsByClassName("unitPrice")[0],
+             qtyElement = rowElements.getElementsByClassName("qty")[0],
+             priceElement = rowElements.getElementsByClassName("price")[0];
+
+var unitPrice , qty , price 
+               
+ unitPrice = unitPriceElement.innerText;
+
+  qty = qtyElement.value;
+
+  price = unitPrice * qty;
+
+  priceElement.innerText = price;
+  
+  return 'Done';
+
+}
+
+ var triggerElements = document.getElementsByClassName('trigger');
+
+for( let i=0 ; i<triggerElements.length ; i++ ){
+
+           triggerElements[i].addEventListener('click', calculatePrice);
+}
+
+    </script>
+</html>
+
+
